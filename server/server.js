@@ -1,4 +1,5 @@
 const express = require('express')
+const path = require('path')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const dotenv = require('dotenv').config()
@@ -11,6 +12,7 @@ const dbConnection = require('./config/db')
 const authRoute = require('./routes/auth.routes');
 const noteRoute = require('./routes/note.routes');
 
+app.use(express.static(path.join(__dirname, 'dist')))
 
 //taking cross platform request and send data in json format
 app.use(cors())
