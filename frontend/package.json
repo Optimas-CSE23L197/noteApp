@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Optimas-CSE23L197.github.io/noteApp.git",
+  "homepage": "https://Optimas-CSE23L197.github.io/noteapp.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
